@@ -1,0 +1,14 @@
+{
+  "name": "biblio-format",
+  "version": "0.1.0",
+  "description": "A simple bibliography formatter",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "author": "Corrado Canepari <codinghobby@gmail.com>",
+  "license": "GNU",
+  "dependencies": {
+    "electron": "^1.4.12"
+  }
+}

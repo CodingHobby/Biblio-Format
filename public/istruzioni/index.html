@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Biblio-Format: Istruzioni</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header clearfix">
+            <h3 class="text-muted">Biblio-Format</h3>
+        </div>
+        <div class="jumbotron">
+            <h1>Istruzioni:</h1>
+            <p class="lead">
+                Questa applicazione è uno strumento per formattare automaticamente le bibliografie secondo gli standard più diffusi fra le
+                diverse casi editrici<br> Al momento è possibile eseguire tale operazione inserendo i dati,
+                separati da due spazi, in quest'ordine:
+                <ol class="lead">
+                    <li>Autore</li>
+                    <li>Titolo</li>
+                    <li>Anno</li>
+                    <li>Edizione</li>
+                    <li>Luogo</li>
+                    <li>Editore</li>
+                </ol>
+            </p>
+            <p>
+                Nel caso ci siano più autori, è necessario separarli con il simbolo " & " (senza virgolette).
+            </p>
+            <p>
+                Nel caso in cui l'autore non sia specificato sarà indicato, nell'output, con "Anon."<br> Nel caso in cui
+                la data non sia specificata sarà indicata, nell'output, con "S.d."<br> Nel caso in cui il luogo non sia specificato
+                sarà indicato, nell'output, con "S.l."<br> Nel caso in cui l'editore non sia specificato sarà indicato, nell'output,
+                con "S.n."
+            </p>
+            <p id="btn"><a class="btn btn-lg btn-success" href="javascript:history.back()" role="button">Vai all'Applicazione</a></p>
+        </div>
+</body>
+<style>
+    #btn {
+        text-align: center;
+    }
+</style>
+</html>
